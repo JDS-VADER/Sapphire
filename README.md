@@ -3,9 +3,11 @@ A Voice Attack Profile & Plugin for Elite Dangerous
 -- by CMDR Sapphire Kamigawa
 
 
-    S.A.P.P.H.I.R.E - A Voice Attack Profile
-   Sapphire's Auxiliary Processing Plugin and
-       Human Interlink Retrofit Extension 
+                S.A.P.P.H.I.R.E.
+
+        Sapphire's Auxiliary Processing
+           Plugin and Human Interlink
+               Retrofit Extension 
 
              ©2020 Jennifer D. Snow
              CMDR Sapphire Kamigawa
