@@ -1,9 +1,9 @@
-﻿Imports JDS.VAProxyWrapper ' VAProxy object wrapper 
-Imports JDS.Sapphire.Core ' Core Plugin functionality
-
-' This plugin requires EDDI installed and running as a Voice Attack plugin
+﻿' This plugin requires EDDI installed and running as a Voice Attack plugin
 ' to be most effective.  The Plugin will not load if it does not detect
 ' EDDI installed as a Voice Attack plugin
+
+Imports JDS.VAProxyWrapper ' VAProxy object wrapper 
+Imports JDS.Sapphire.Core ' Core Plugin functionality
 
 Namespace Global.JDS.Sapphire
   Public Class Sapphire
