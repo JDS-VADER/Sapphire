@@ -62,13 +62,17 @@ Namespace Global.JDS.Sapphire
       _methodName =  "[VA_Invoke1]:"
       Dim oldProxyType As String = VAProxy.ProxyType
     
-      ' Log invocation (with passed proxy context)
-      VAProxy.Log.Trace($"{_methodName} Began invocation with context ""{proxy.Context.ToString()}""")
-    
       ' Update our proxy object... (it is still VoiceAttackInitProxyClass at this point)
       VAProxy.Invoke(proxy)
-      VAProxy.Log.Trace($"{_methodName} Updated VAProxy object from {oldProxyType} to {VAProxy.ProxyType}")
+      If (oldProxyType <> VAProxy.ProxyType) Then
+        VAProxy.Log.Trace($"{_methodName} Updated VAProxy object from {oldProxyType} to {VAProxy.ProxyType}")
+      End If
 
+      ' Log invocation (with passed proxy context)
+      VAProxy.Log.Trace($"{_methodName} Began invocation with context ""{proxy.Context}""")
+    
+
+      
       ' Perform plugin stuff here...
       If VAProxy.Commands.Exists("JDS.EDDI.Talk") Then
         VAProxy.Commands.Execute("JDS.EDDI.Talk", PassedText := """This is a test""")

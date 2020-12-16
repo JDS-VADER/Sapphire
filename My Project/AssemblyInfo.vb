@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Sapphire")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Sapphire")>
+<Assembly: AssemblyTitle("S.A.P.P.H.I.R.E.")>
+<Assembly: AssemblyDescription("Sapphire's Auxiliary Processing Plugin and Human Interlink Retrofit Extension")>
+<Assembly: AssemblyCompany("Jennifer D. Snow - JDS")>
+<Assembly: AssemblyProduct("S.A.P.P.H.I.R.E.")>
 <Assembly: AssemblyCopyright("Copyright ©  2020")>
 <Assembly: AssemblyTrademark("")>
 
